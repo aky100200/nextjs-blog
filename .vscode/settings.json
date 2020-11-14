@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "extensions.showRecommendationsOnlyOnDemand": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": false,
+  "typescript.format.semicolons": "remove",
+  "javascript.format.semicolons": "remove"
+}

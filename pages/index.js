@@ -12,14 +12,17 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <h2 className={utilStyles.headingLg}>Profile</h2>
         <p>
-          SIerのSE。技術スキルが足りないまま6年目になってしまった。
-          言語:Java/JS/PHP/TS FW:SpringBoot/AngularJS/React クラウド:Azure/AWS
+          技術スキルが足りないまま6年目になってしまったSIerのSE。
+          <br />
+          言語:Java/JS/PHP/TS
+          <br />
+          FW:SpringBoot/AngularJS/React
+          <br />
+          クラウド:Azure/AWS
+          <br />
           保有資格：基本情報/応用情報
-        </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

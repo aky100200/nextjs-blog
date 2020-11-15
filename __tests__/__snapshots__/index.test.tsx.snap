@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppTitle 1`] = `
+<div>
+  <header>
+    <img
+      alt="aky100200"
+      className="undefined undefined"
+      src="/images/profile.jpg"
+    />
+    <h1>
+      aky100200
+    </h1>
+  </header>
+  <main>
+    <section>
+      <h2>
+        Profile
+      </h2>
+      <p>
+        技術スキルが足りないまま6年目になってしまったSIerのSE。
+        <br />
+        言語:Java/JS/PHP/TS
+        <br />
+        FW:SpringBoot/AngularJS/React
+        <br />
+        クラウド:Azure/AWS
+        <br />
+        保有資格：基本情報/応用情報
+      </p>
+    </section>
+    <section
+      className="undefined undefined"
+    >
+      <h2>
+        Blog
+      </h2>
+      <ul>
+        <li>
+          <a
+            href="/posts/test_id"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            test_title
+          </a>
+          <br />
+          <small>
+            <time
+              dateTime="2020-01-01"
+            >
+              January 1, 2020
+            </time>
+          </small>
+        </li>
+      </ul>
+    </section>
+  </main>
+</div>
+`;

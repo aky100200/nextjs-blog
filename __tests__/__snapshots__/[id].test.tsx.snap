@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdTest 1`] = `
+<div>
+  <header>
+    <a
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <img
+        alt="aky100200"
+        className="undefined undefined"
+        src="/images/profile.jpg"
+      />
+    </a>
+    <h2>
+      <a
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        aky100200
+      </a>
+    </h2>
+  </header>
+  <main>
+    <article>
+      <h1>
+        test_title
+      </h1>
+      <div>
+        <time
+          dateTime="2020-01-01"
+        >
+          January 1, 2020
+        </time>
+      </div>
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<h1>Hello</h1>",
+          }
+        }
+      />
+    </article>
+  </main>
+  <div>
+    <a
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      ← Back to home
+    </a>
+  </div>
+</div>
+`;

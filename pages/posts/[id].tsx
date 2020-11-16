@@ -5,7 +5,15 @@ import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 
-const Post = ({ postData }) => {
+const Post = ({
+  postData,
+}: {
+  postData: {
+    title: string
+    date: string
+    contentHtml: string
+  }
+}) => {
   return (
     <Layout>
       <Head>
@@ -30,7 +38,13 @@ export const getStaticPaths = async () => {
   }
 }
 
-export const getStaticProps = async ({ params }) => {
+export const getStaticProps = async ({
+  params,
+}: {
+  params: {
+    id: string
+  }
+}) => {
   const postData = await getPostData(params.id)
   return {
     props: {

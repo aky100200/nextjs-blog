@@ -7,13 +7,13 @@ import Link from 'next/link'
 const name = 'aky100200'
 export const siteTitle = "aky100200's Blog"
 
-export default function Layout({
+const Layout = ({
   children,
   home,
 }: {
   children: React.ReactNode
   home?: boolean
-}) {
+}) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -71,3 +71,5 @@ export default function Layout({
     </div>
   )
 }
+
+export default Layout

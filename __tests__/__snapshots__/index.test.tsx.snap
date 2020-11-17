@@ -39,6 +39,7 @@ exports[`AppTitle 1`] = `
         <li>
           <a
             href="/posts/test_id"
+            id="test_id"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >

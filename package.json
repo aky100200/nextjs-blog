@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "test": "jest",
+    "test-update": "jest --updateSnapshot",
     "selenium": "mocha selenium/uiTest.js --timeout 10000",
     "dev": "next dev",
     "build": "next build",

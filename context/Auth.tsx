@@ -9,7 +9,7 @@ type AuthContextProps = {
 
 const AuthContext = createContext<AuthContextProps>({ currentUser: undefined })
 
-const AuthProvider: FC = ({ children }) => {
+const AuthProvider: FC = ({ children }: { children: React.ReactNode }) => {
   const [currentUser, setCurrentUser] = useState<User | null | undefined>(
     undefined
   )

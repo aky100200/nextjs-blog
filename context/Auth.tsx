@@ -1,4 +1,4 @@
-import { User } from 'firebase'
+import { User } from 'firebase/firebase-app'
 import React, { FC, createContext, useEffect, useState } from 'react'
 
 import firebase from '../utils/Firebase'

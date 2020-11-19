@@ -1,6 +1,5 @@
-const { Builder, By, Capabilities, Key, until } = require('selenium-webdriver')
+const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
-const capabilities = Capabilities.chrome()
 
 let driver
 

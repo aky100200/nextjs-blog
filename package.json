@@ -20,7 +20,8 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "remark": "^13.0.0",
-    "remark-html": "^13.0.1"
+    "remark-html": "^13.0.1",
+    "sass": "^1.29.0"
   },
   "devDependencies": {
     "@types/enzyme": "^3.10.5",
@@ -43,7 +44,7 @@
   },
   "jest": {
     "moduleNameMapper": {
-      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+      "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
     },
     "transform": {
       "^.+\\.(ts|tsx)$": "ts-jest"

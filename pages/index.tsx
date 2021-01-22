@@ -51,6 +51,10 @@ const Home = ({
           ))}
         </ul>
       </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Questionnaire</h2>
+        <Link href='https://forms.gle/4r3YHkhRjDcAnyGT6'>アンケートページ</Link>
+      </section>
     </Layout>
   )
 }
